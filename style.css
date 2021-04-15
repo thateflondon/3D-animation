@@ -44,7 +44,7 @@ body {
 .circle {
     width: 15rem;
     height: 15rem;
-    background: linear-gradient(to right, rgba(245, 70, 66, 0.75), rgba(8, 83, 156, 0.75));
+    background: linear-gradient(to right, RGBA(202, 62, 77, 1), RGBA(190, 190, 190, 1));
     position: absolute;
     border-radius: 50%;
 }
@@ -58,6 +58,7 @@ body {
     padding: 2rem 0rem;
     color: slategray;
     font-weight: lighter;
+    text-align: justify;
 }
 
 .sizes {
@@ -82,9 +83,16 @@ button.active {
 }
 
 .purchase {
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .purchase button {
     width: 100%;
+    padding: 1rem 0rem;
+    background: #CA3E4D;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bolder;
 }
